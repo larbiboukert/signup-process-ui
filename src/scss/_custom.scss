@@ -1,0 +1,178 @@
+// Here you can add other styles
+.card {
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, 0.08);
+  margin: 0;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.bg-clr-pink {
+  background-color: #FF0072;
+}
+
+.redirect-text-clr {
+  color: #FF0072;
+}
+
+.txt-clr-dark {
+  color: #222222;
+}
+
+.signup-progress-txt {
+  color: #535353;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.265em;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.txt-uppercase {
+  text-transform: uppercase;
+}
+
+.input-label-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.card-header {
+  border-bottom: unset;
+}
+
+.form-control {
+  border: unset;
+
+  &:focus {
+    box-shadow: unset;
+  }
+}
+
+.input-text,
+.input-text:focus {
+  box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border-color: white;
+  height: 60px;
+}
+
+.btn-primary {
+  background-color: #FF0072 !important;
+  border-color: #FF0072 !important;
+
+  &:focus,
+  &.focus {
+    box-shadow: unset !important;
+  }
+}
+
+.confirm-button {
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.015em;
+  height: 60px;
+  width: 100%;
+}
+
+.terms {
+  height: 40vh;
+
+  >.scroll {
+    height: 35vh;
+  }
+}
+
+.terms>div {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.terms-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.plan-option {
+  background: #FFFFFF;
+  box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  color: #FF0072;
+}
+
+.cost-main {
+  font-size: 86px;
+  line-height: 129px;
+  font-weight: 900;
+  letter-spacing: -0.1em;
+}
+
+.cost-decimal {
+  position: relative;
+  top: 10px;
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.txt-dar small {
+  color: #222222;
+  overflow-y: scroll;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.separator {
+  border: 1px solid rgba(34, 34, 34, 0.5);
+}
+
+.separator-dashed {
+  border: 1px dashed #000000;
+}
+
+@media (max-width: 960px) {
+  .accept-div {
+    background-color: #FF0072;
+
+    >small {
+      color: #FFFFFF;
+    }
+
+    >button {
+      color: #000000;
+      background-color: #FFFFFF !important;
+    }
+  }
+
+  .terms {
+    height: 55vh;
+
+    >.scroll {
+      height: 50vh;
+    }
+  }
+
+  .redirect-text-clr {
+    color: #6732FF;
+  }
+
+  .bg-clr-pink {
+    background-color: #FFFFFF;
+  }
+}

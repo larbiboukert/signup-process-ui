@@ -1,1 +1,1 @@
-An implementation of the UI layouts in the sketch file for a signup process. 
+An implementation of the responsive UI layouts in the sketch file for a signup process. 
